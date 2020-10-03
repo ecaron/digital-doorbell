@@ -8,4 +8,4 @@ auth.set_access_token(os.getenv("access_token"), os.getenv("access_token_secret"
 
 api = tweepy.API(auth)
 
-api.update_status("Posting this again")
+api.update_status("Confirming that we're able to post a message to Twitter with Python from a Raspberry Pi")
